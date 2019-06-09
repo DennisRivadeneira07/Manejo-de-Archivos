@@ -353,7 +353,6 @@ public class visu extends javax.swing.JFrame {
         }else {
             archivoSeleccionado = (String) listOcu.getSelectedValue();
         }
-        
         String rutaArchivoSeleccionado = txtRuta.getText().trim() + "\\" + archivoSeleccionado;
         File archivo = new File(rutaArchivoSeleccionado);
         
