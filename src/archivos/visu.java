@@ -355,7 +355,6 @@ public class visu extends javax.swing.JFrame {
         }
         String rutaArchivoSeleccionado = txtRuta.getText().trim() + "\\" + archivoSeleccionado;
         File archivo = new File(rutaArchivoSeleccionado);
-        
         String nombreNuevoArchivo = JOptionPane.showInputDialog("Ingrese el nuevo nombre del archivo:");
         String rutaNuevoArchivo = txtRuta.getText().trim() + "\\" + nombreNuevoArchivo;
         File archivoNuevo = new File(rutaNuevoArchivo);
